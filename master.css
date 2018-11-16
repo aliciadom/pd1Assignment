@@ -1,0 +1,87 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: black;
+ }
+#header {
+  background-color: #ebfaeb;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  height: 10%;
+  width: 100%;
+}
+#left-side {
+  display: block;
+  overflow: auto;
+  height: 90%;
+  width: 30%;
+  left: 0;
+  top: 10%;
+  text-align: center;
+  background-color: #d6f5d6;
+  position: absolute;
+}
+#right-side {
+  display: block;
+  overflow: auto;
+  height: 90%;
+  width: 70%;
+  right: 0;
+  top: 10%;
+  text-align: center;
+  background-color: #eeffcc;
+  position: absolute;
+}
+#left-side .inner{
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+  #right-side .inner{
+  position: relative;
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+input[type=submit]{
+    width: 200px;
+    height: 50px;
+    background-color: #fff0b3;
+    border: 1px solid #ccc;
+    text-align:center;
+    font-family:Courier New;
+    font-size:25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=number],[type=text],input[type=password] {
+    width: 200px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    text-align:center;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.btn{
+    font-family:Courier New;
+    font-size:20px;
+    background-color: #fff0b3;
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td {
+    padding: 15px;
+}
+label{
+  font-size: 20px;
+}
